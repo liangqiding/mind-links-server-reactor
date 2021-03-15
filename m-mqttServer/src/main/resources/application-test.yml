@@ -1,0 +1,28 @@
+#============================================================
+#####################################     mqtt 服务器    ##############################################
+#
+#
+######################################################################################################
+links.mqtt:
+  broker:
+    cluster-on: false
+    host: 127.0.0.1
+    id: m-links-mqtt-1
+    keep-alive: 60
+    mqtt-password-must: false
+    port: 8886
+    so-backlog: 511
+    so-keep-alive: true
+    ssl-enabled: false
+    ssl-password: 123456
+    use-epoll: false
+    webSocket-enabled: true
+    webSocket-port: 9995
+nutz:
+  application:
+    name: mqtt
+  propdoc:
+    packages: cn.wizzer.iot.mqtt.server.broker
+netty:
+  port: 21001
+
