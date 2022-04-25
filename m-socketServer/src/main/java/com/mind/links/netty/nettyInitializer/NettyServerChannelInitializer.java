@@ -17,7 +17,7 @@ import org.springframework.stereotype.Component;
 @Desc("编码解码器")
 @Component
 @RequiredArgsConstructor
-public class NettyServerChannelInitializer extends ChannelInitializer<SocketChannel> {
+public class  NettyServerChannelInitializer extends ChannelInitializer<SocketChannel> {
 
     @Desc("通道主动处理程序(单例)")
     private final ChannelActiveHandler channelActiveHandler;
