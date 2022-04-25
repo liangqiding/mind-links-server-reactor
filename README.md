@@ -1,5 +1,6 @@
 <h1 align="center" style="margin: 30px 0 30px; font-weight: bold;">mind-mqtt-reactor</h1>
 <h4 align="center">基于Reactor3 netty的大型响应式分布式物联网智能家电系统,十万长连接</h4>
+<h5  style="color: red" align="center" >本项目尚未完成，且已于2020.10.10停止维护更新</h5>
 <p align="center">
 	<a href="#"><img src="https://img.shields.io/badge/Springboot-2.5.3-blue"></a>
 	<a href="#"><img src="https://img.shields.io/badge/license%20-MIT-green"></a>
